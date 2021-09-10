@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="pad">Images</h2>
+    <hr/>
+
+    <div class="row">
+        <div class="col lg 3">
+            <h4>Add Wallpaper</h4>
+            <br/>
+            <form id="image-form">
+                <div class="form-group">
+                    <label for="catefory">Choose category</label>
+                    <select id="category" class="form-control">
+                           <h6>select</h6>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="tile">Title</label>
+                    <input type="text" id="title" class="form-control"/>
+                    <div class="invalid-feedback">
+                        Please Enter Title
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="desc">Title</label>
+                    <input type="text" id="desc" class="form-control" />
+                    <div class="invalid-feedback">
+                        Please Enter Description
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="wallpaper">Wallpaper Image</label>
+                    <input type="file" id="wallpaper" class="form-control" />
+                    <div class="invalid-feedback">
+                        Please Choose a valid Image
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary">Upload</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div  class="col lg-9">
+            <h5>Preview Image</h5>
+            <img id="wallpaper-image" width="800" height="400"/>
+        </div>
+
+    </div>
+
+    <script src="js/image.js"></script>
+</body>
+</html>

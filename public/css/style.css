@@ -1,0 +1,93 @@
+#login-card{
+    width: 450px;
+    margin: 150px auto;
+}
+#login-button{
+    margin-top: 10px;
+    width: 450px
+}
+#lgn-btn{
+    margin-top: 10px;
+    width: 93%;
+    
+}
+h1{
+    color: rgba(55, 97, 189, 0.952);
+    
+}
+#bdy{
+   background-image: url('/public/images/bg.jpg'); 
+}
+
+#result{
+    margin-top: 10px;
+}
+
+#logout{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: brown;
+    border-color: brown;
+}
+#err{
+    margin-top: 10px;
+}
+#cat{
+    text-decoration-style: none;
+}
+.nav-flex-colum{
+    list-style-type: none;
+    color:black;
+   
+}
+.nav-item{
+
+ margin-top: 10px;
+ border: 1px white;
+ width: 150px;
+ 
+} 
+.nav-flex-colum .nav-item a{
+    color: goldenrod;
+}
+#pad{
+    margin: 20px;
+}
+#wallpaper-image{
+   background-color: white;
+   box-shadow:1px 1px aliceblue;
+   border-radius: 10px; 
+}
+.progress{
+    background-color: whitesmoke;
+}
+#imgs{
+    margin-top: 30px;
+    background-color: aliceblue;
+    box-shadow:0px 0px rgb(208, 216, 216);;
+}
+#cats{
+    margin-top: 30px;
+    background-color: aliceblue;
+     box-shadow:1px 1px rgb(208, 216, 216);
+}
+}
+.container{
+    margin-top: 10px;
+}
+ #admin a{
+   text-decoration: none;
+   color: white; 
+}
+ a:hover{
+    color: brown;
+}
+#form-space{
+    margin-top: 10px;
+}
+ .tit{
+     margin-left:130px;
+ }
+
+.form-group{
+    margin-top: 10px;
+}
